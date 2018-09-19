@@ -8,7 +8,6 @@ public class Lights {
     private String red;
     private String yellow;
 
-    //Constructor
     public Lights() {
         green = "green";
         red = "red";
