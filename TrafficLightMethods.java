@@ -1,9 +1,12 @@
+// Class TrafficLightMethods gives methods for working with traffic light
+
 package com.TrafficLightApp;
 
 import java.util.Scanner;
 
 public class TrafficLightMethods {
 
+    // Check what light fires
     public static void CheckLight(String red, String yellow, String green, int minute) {
 
         if ((minute >= 0 && minute <= 2) | (minute >= 11 && minute <= 13) | (minute > 10 && minute < 13) |
@@ -23,6 +26,7 @@ public class TrafficLightMethods {
 
     }
 
+    // Get minutes
     public static int getMinute(Scanner in) {
         int minute;
         System.out.print("Введите минуту как целое число:");
@@ -30,6 +34,7 @@ public class TrafficLightMethods {
         return minute;
     }
 
+    // Output result
     public static void Output(String a) {
         System.out.println(a);
     }
