@@ -11,17 +11,17 @@ public class TrafficLightMethods {
 
         if ((minute >= 0 && minute <= 2) | (minute >= 11 && minute <= 13) | (minute > 10 && minute < 13) |
                 (minute >= 23 && minute < 25) | (minute >= 44 && minute < 47) | (minute >= 55 && minute < 58)) {
-            Output(red);
+            output(red);
         }
 
         if ((minute > 2 && minute < 6) | (minute > 13 && minute < 17) | (minute >= 25 && minute < 29) |
                 (minute >= 34 && minute < 37) | (minute >= 47 && minute < 50) | (minute >= 58 && minute < 61)) {
-            Output(yellow);
+            output(yellow);
         }
 
         if ((minute >= 6 && minute < 11) | (minute > 17 && minute < 23) | (minute >= 29 && minute < 34) |
                 (minute >= 39 && minute < 44) | (minute >= 50 && minute < 55)) {
-            Output(green);
+            output(green);
         }
 
     }
