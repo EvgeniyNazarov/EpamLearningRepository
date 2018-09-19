@@ -5,7 +5,7 @@ what color caught fire on traffic light.
 For start application in IDE IntelliJ Idea press Shift+F10 or click on green triangle.
 For stop press Shift+F10 or click on red square.
 The program contains three classes. 
-Class Lights which descripting  kinds of lights of traffic light. 
+Class Lights which desсribing kinds of lights of traffic light. 
 Class TrafficLightMethods which gives methods for working with entered values.
 Class Main which start the program.
 
