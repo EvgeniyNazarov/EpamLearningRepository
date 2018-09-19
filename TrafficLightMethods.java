@@ -4,7 +4,7 @@ package com.TrafficLightApp;
 
 import java.util.Scanner;
 
-public class TrafficLightMethods {
+public class trafficLightMethods {
 
     // Check what light fires
     public static void CheckLight(String red, String yellow, String green, int minute) {
