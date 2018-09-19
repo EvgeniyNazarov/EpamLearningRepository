@@ -10,11 +10,11 @@ package com.trafficLightApp;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        Lights light = new Lights();
-        TrafficLightMethods tlm = new TrafficLightMethods();
-        int minute = tlm.getMinute(in);
-        tlm.checkLight(light.getRed(), light.getYellow(), light.getGreen(), minute);
-    }
- } 
+   public static void main(String[] args) {
+       Scanner in = new Scanner(System.in);
+       Lights light = new Lights();
+       TrafficLightMethods tlm = new TrafficLightMethods();
+       int minute = tlm.getMinute(in);
+       tlm.checkLight(light.getRed(), light.getYellow(), light.getGreen(), minute);
+   }
+} 
