@@ -11,7 +11,7 @@
 // Class Main start the program.
 
 
-package com.TrafficLightApp;
+package com.trafficLightApp;
 
 import java.util.Scanner;
 
