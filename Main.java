@@ -1,9 +1,12 @@
+// Author Evgeniy Nazarov
+// Second Epam training task 
+// Create traffic light with output color in the console.
+// You input minute(from 0 to n) and get which light fires on the traffic light.
+// First two minutes red light, after three minutes yellow light and five minutes green light.
+
 package com.TrafficLightApp;
 import java.util.Scanner;
 
-//Сделать светофор с выводом цвета в консоль.
-// Вы вводите минуту (от нуля до n) и получаете какой свет горит на светофоре.
-// Первые две минуты красный, потом три минуты желтый и пять минут зеленый.
 public class Main {
 
     public static void main(String[] args) {
