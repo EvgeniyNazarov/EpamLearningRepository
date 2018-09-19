@@ -23,11 +23,11 @@ public class Main {
         
         Lights light = new Lights();
         
-        TrafficLightMethods TLM = new TrafficLightMethods();
+        TrafficLightMethods tlm = new TrafficLightMethods();
         
-        int minute = TLM.getMinute(in);
+        int minute = tlm.getMinute(in);
         
-        TLM.CheckLight(light.getRed(), light.getYellow(), light.getGreen(), minute);
+        tlm.CheckLight(light.getRed(), light.getYellow(), light.getGreen(), minute);
         
    }
     
