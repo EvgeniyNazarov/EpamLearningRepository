@@ -5,8 +5,8 @@
    First two minutes red light, after three minutes yellow light and five minutes green light.
    Class Main start the program. */
 
-
 package com.trafficLightApp;
+
 import java.util.Scanner;
 
 public class Main {
@@ -15,6 +15,6 @@ public class Main {
         Lights light = new Lights();
         TrafficLightMethods tlm = new TrafficLightMethods();
         int minute = tlm.getMinute(in);
-        tlm.CheckLight(light.getRed(), light.getYellow(), light.getGreen(), minute);
+        tlm.checkLight(light.getRed(), light.getYellow(), light.getGreen(), minute);
     }
  } 
