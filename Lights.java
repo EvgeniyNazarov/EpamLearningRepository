@@ -1,6 +1,6 @@
 //Class Lights describe colors of traffic light
 
-package com.TrafficLightApp;
+package com.trafficLightApp;
 
 public class Lights {
 
