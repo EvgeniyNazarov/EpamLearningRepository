@@ -13,10 +13,10 @@ public class TrafficLightMethods {
     /**
      * Check what light fires
      *
-     * @param red    red light
-     * @param yellow yellow light
-     * @param green  green light
-     * @param minute input minute
+     * @red    red light
+     * @yellow yellow light
+     * @green  green light
+     * @minute input minute
      */
     public static void checkLight(String red, String yellow, String green, int minute) {
 
@@ -41,7 +41,7 @@ public class TrafficLightMethods {
     /**
      * Get minutes
      *
-     * @param in intput minute
+     * @in intput minute
      */
     public static int getMinute(Scanner in) {
         int minute;
@@ -53,7 +53,7 @@ public class TrafficLightMethods {
     /**
      * Output result
      *
-     * @param str output string
+     * @str output string
      */
     public static void output(String str) {
         System.out.println(str);
