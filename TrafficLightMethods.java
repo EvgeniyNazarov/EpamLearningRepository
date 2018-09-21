@@ -9,12 +9,13 @@ import java.util.Scanner;
  * Evgeniy Nazarov
  */
 public class TrafficLightMethods {
-     
+
     /**
      * Check what light fires
-     * @param red red light
+     *
+     * @param red    red light
      * @param yellow yellow light
-     * @param green green light
+     * @param green  green light
      * @param minute input minute
      */
     public static void checkLight(String red, String yellow, String green, int minute) {
@@ -36,9 +37,10 @@ public class TrafficLightMethods {
 
     }
 
-    
+
     /**
      * Get minutes
+     *
      * @param in intput minute
      */
     public static int getMinute(Scanner in) {
@@ -50,6 +52,7 @@ public class TrafficLightMethods {
 
     /**
      * Output result
+     *
      * @param str output string
      */
     public static void output(String str) {
