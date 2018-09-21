@@ -43,7 +43,7 @@ public class TrafficLightMethods {
      */
     public static int getMinute(Scanner in) {
         int minute;
-        System.out.print("Введите минуту как целое число:");
+        System.out.print("Input minute in integer:");
         minute = in.nextInt();
         return minute;
     }
