@@ -27,6 +27,7 @@ public class Lights {
     
     /**
      * Red light
+     * @red red light
      */
     public void setRed(String red) {
         this.red = red;
@@ -41,6 +42,7 @@ public class Lights {
 
     /**
      * Yellow light
+     * @yellow yellow light
      */
     public void setYellow(String yellow) {
         this.yellow = yellow;
@@ -55,6 +57,7 @@ public class Lights {
 
     /**
      * Green light
+     * @green green light
      */
     public void setGreen(String green) {
         this.green = green;
