@@ -1,7 +1,11 @@
-//Class Lights describe colors of traffic light
-
 package com.trafficLightApp;
 
+/**
+ * Class Lights describe colors of traffic light.
+ *
+ * @version 1.0 18 Sep 2018  * @author
+ * Evgeniy Nazarov
+ */
 public class Lights {
 
     private String green;
@@ -14,32 +18,44 @@ public class Lights {
         yellow = "yellow";
     }
 
-    // Red light
+    /**
+     * Red light
+     */
     public String getRed() {
         return this.red = red;
     }
-
-    // Red light
+    
+    /**
+     * Red light
+     */
     public void setRed(String red) {
         this.red = red;
     }
 
-    // Yellow light
+    /**
+     * Yellow light
+     */
     public String getYellow() {
         return this.yellow = yellow;
-    }
-    
-    // Yellow light
+    }    
+
+    /**
+     * Yellow light
+     */
     public void setYellow(String yellow) {
         this.yellow = yellow;
-    }
-    
-    //Green light
+    }    
+
+    /**
+     * Green light
+     */
     public String getGreen() {
         return this.green = green;
     }
 
-    //Green light
+    /**
+     * Green light
+     */
     public void setGreen(String green) {
         this.green = green;
     }
